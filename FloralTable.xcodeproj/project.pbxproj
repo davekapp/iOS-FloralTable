@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E68175414DF8727009B5F9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E68175314DF8727009B5F9E /* UIKit.framework */; };
+		4E68175614DF8727009B5F9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E68175514DF8727009B5F9E /* Foundation.framework */; };
+		4E68175814DF8727009B5F9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E68175714DF8727009B5F9E /* CoreGraphics.framework */; };
+		4E68175E14DF8727009B5F9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E68175C14DF8727009B5F9E /* InfoPlist.strings */; };
+		4E68176014DF8727009B5F9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E68175F14DF8727009B5F9E /* main.m */; };
+		4E68176414DF8727009B5F9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E68176314DF8727009B5F9E /* AppDelegate.m */; };
+		4E68176714DF8727009B5F9E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E68176514DF8727009B5F9E /* MainStoryboard_iPhone.storyboard */; };
+		4E68176A14DF8727009B5F9E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E68176814DF8727009B5F9E /* MainStoryboard_iPad.storyboard */; };
+		4E68176D14DF8727009B5F9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E68176C14DF8727009B5F9E /* ViewController.m */; };
+		4E68177514DF8727009B5F9E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E68177414DF8727009B5F9E /* SenTestingKit.framework */; };
+		4E68177614DF8727009B5F9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E68175314DF8727009B5F9E /* UIKit.framework */; };
+		4E68177714DF8727009B5F9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E68175514DF8727009B5F9E /* Foundation.framework */; };
+		4E68177F14DF8727009B5F9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E68177D14DF8727009B5F9E /* InfoPlist.strings */; };
+		4E68178214DF8727009B5F9E /* FloralTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E68178114DF8727009B5F9E /* FloralTableTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E68177814DF8727009B5F9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E68174614DF8727009B5F9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E68174E14DF8727009B5F9E;
+			remoteInfo = FloralTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E68174F14DF8727009B5F9E /* FloralTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloralTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E68175314DF8727009B5F9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E68175514DF8727009B5F9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E68175714DF8727009B5F9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E68175B14DF8727009B5F9E /* FloralTable-Info.plist */ = {isa = PBXFileReference; path = "FloralTable-Info.plist"; sourceTree = "<group>"; };
+		4E68175D14DF8727009B5F9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E68175F14DF8727009B5F9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E68176114DF8727009B5F9E /* FloralTable-Prefix.pch */ = {isa = PBXFileReference; path = "FloralTable-Prefix.pch"; sourceTree = "<group>"; };
+		4E68176214DF8727009B5F9E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E68176314DF8727009B5F9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E68176614DF8727009B5F9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		4E68176914DF8727009B5F9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		4E68176B14DF8727009B5F9E /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		4E68176C14DF8727009B5F9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E68177314DF8727009B5F9E /* FloralTableTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloralTableTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E68177414DF8727009B5F9E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4E68177C14DF8727009B5F9E /* FloralTableTests-Info.plist */ = {isa = PBXFileReference; path = "FloralTableTests-Info.plist"; sourceTree = "<group>"; };
+		4E68177E14DF8727009B5F9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E68178014DF8727009B5F9E /* FloralTableTests.h */ = {isa = PBXFileReference; path = FloralTableTests.h; sourceTree = "<group>"; };
+		4E68178114DF8727009B5F9E /* FloralTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloralTableTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E68174C14DF8727009B5F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E68175414DF8727009B5F9E /* UIKit.framework in Frameworks */,
+				4E68175614DF8727009B5F9E /* Foundation.framework in Frameworks */,
+				4E68175814DF8727009B5F9E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E68176F14DF8727009B5F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E68177514DF8727009B5F9E /* SenTestingKit.framework in Frameworks */,
+				4E68177614DF8727009B5F9E /* UIKit.framework in Frameworks */,
+				4E68177714DF8727009B5F9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E68174414DF8727009B5F9E = {
+			isa = PBXGroup;
+			children = (
+				4E68175914DF8727009B5F9E /* FloralTable */,
+				4E68177A14DF8727009B5F9E /* FloralTableTests */,
+				4E68175214DF8727009B5F9E /* Frameworks */,
+				4E68175014DF8727009B5F9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E68175014DF8727009B5F9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E68174F14DF8727009B5F9E /* FloralTable.app */,
+				4E68177314DF8727009B5F9E /* FloralTableTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E68175214DF8727009B5F9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E68175314DF8727009B5F9E /* UIKit.framework */,
+				4E68175514DF8727009B5F9E /* Foundation.framework */,
+				4E68175714DF8727009B5F9E /* CoreGraphics.framework */,
+				4E68177414DF8727009B5F9E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E68175914DF8727009B5F9E /* FloralTable */ = {
+			isa = PBXGroup;
+			children = (
+				4E68176214DF8727009B5F9E /* AppDelegate.h */,
+				4E68176314DF8727009B5F9E /* AppDelegate.m */,
+				4E68176514DF8727009B5F9E /* MainStoryboard_iPhone.storyboard */,
+				4E68176814DF8727009B5F9E /* MainStoryboard_iPad.storyboard */,
+				4E68176B14DF8727009B5F9E /* ViewController.h */,
+				4E68176C14DF8727009B5F9E /* ViewController.m */,
+				4E68175A14DF8727009B5F9E /* Supporting Files */,
+			);
+			path = FloralTable;
+			sourceTree = "<group>";
+		};
+		4E68175A14DF8727009B5F9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E68175B14DF8727009B5F9E /* FloralTable-Info.plist */,
+				4E68175C14DF8727009B5F9E /* InfoPlist.strings */,
+				4E68175F14DF8727009B5F9E /* main.m */,
+				4E68176114DF8727009B5F9E /* FloralTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E68177A14DF8727009B5F9E /* FloralTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E68178014DF8727009B5F9E /* FloralTableTests.h */,
+				4E68178114DF8727009B5F9E /* FloralTableTests.m */,
+				4E68177B14DF8727009B5F9E /* Supporting Files */,
+			);
+			path = FloralTableTests;
+			sourceTree = "<group>";
+		};
+		4E68177B14DF8727009B5F9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E68177C14DF8727009B5F9E /* FloralTableTests-Info.plist */,
+				4E68177D14DF8727009B5F9E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E68174E14DF8727009B5F9E /* FloralTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E68178514DF8727009B5F9E /* Build configuration list for PBXNativeTarget "FloralTable" */;
+			buildPhases = (
+				4E68174B14DF8727009B5F9E /* Sources */,
+				4E68174C14DF8727009B5F9E /* Frameworks */,
+				4E68174D14DF8727009B5F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloralTable;
+			productName = FloralTable;
+			productReference = 4E68174F14DF8727009B5F9E /* FloralTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E68177214DF8727009B5F9E /* FloralTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E68178814DF8727009B5F9E /* Build configuration list for PBXNativeTarget "FloralTableTests" */;
+			buildPhases = (
+				4E68176E14DF8727009B5F9E /* Sources */,
+				4E68176F14DF8727009B5F9E /* Frameworks */,
+				4E68177014DF8727009B5F9E /* Resources */,
+				4E68177114DF8727009B5F9E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E68177914DF8727009B5F9E /* PBXTargetDependency */,
+			);
+			name = FloralTableTests;
+			productName = FloralTableTests;
+			productReference = 4E68177314DF8727009B5F9E /* FloralTableTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E68174614DF8727009B5F9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4E68174914DF8727009B5F9E /* Build configuration list for PBXProject "FloralTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E68174414DF8727009B5F9E;
+			productRefGroup = 4E68175014DF8727009B5F9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E68174E14DF8727009B5F9E /* FloralTable */,
+				4E68177214DF8727009B5F9E /* FloralTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E68174D14DF8727009B5F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E68175E14DF8727009B5F9E /* InfoPlist.strings in Resources */,
+				4E68176714DF8727009B5F9E /* MainStoryboard_iPhone.storyboard in Resources */,
+				4E68176A14DF8727009B5F9E /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E68177014DF8727009B5F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E68177F14DF8727009B5F9E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E68177114DF8727009B5F9E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E68174B14DF8727009B5F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E68176014DF8727009B5F9E /* main.m in Sources */,
+				4E68176414DF8727009B5F9E /* AppDelegate.m in Sources */,
+				4E68176D14DF8727009B5F9E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E68176E14DF8727009B5F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E68178214DF8727009B5F9E /* FloralTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E68177914DF8727009B5F9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E68174E14DF8727009B5F9E /* FloralTable */;
+			targetProxy = 4E68177814DF8727009B5F9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E68175C14DF8727009B5F9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E68175D14DF8727009B5F9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E68176514DF8727009B5F9E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E68176614DF8727009B5F9E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4E68176814DF8727009B5F9E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E68176914DF8727009B5F9E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4E68177D14DF8727009B5F9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E68177E14DF8727009B5F9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E68178314DF8727009B5F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E68178414DF8727009B5F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E68178614DF8727009B5F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FloralTable/FloralTable-Prefix.pch";
+				INFOPLIST_FILE = "FloralTable/FloralTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E68178714DF8727009B5F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FloralTable/FloralTable-Prefix.pch";
+				INFOPLIST_FILE = "FloralTable/FloralTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E68178914DF8727009B5F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FloralTable.app/FloralTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FloralTable/FloralTable-Prefix.pch";
+				INFOPLIST_FILE = "FloralTableTests/FloralTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4E68178A14DF8727009B5F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FloralTable.app/FloralTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FloralTable/FloralTable-Prefix.pch";
+				INFOPLIST_FILE = "FloralTableTests/FloralTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E68174914DF8727009B5F9E /* Build configuration list for PBXProject "FloralTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E68178314DF8727009B5F9E /* Debug */,
+				4E68178414DF8727009B5F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E68178514DF8727009B5F9E /* Build configuration list for PBXNativeTarget "FloralTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E68178614DF8727009B5F9E /* Debug */,
+				4E68178714DF8727009B5F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E68178814DF8727009B5F9E /* Build configuration list for PBXNativeTarget "FloralTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E68178914DF8727009B5F9E /* Debug */,
+				4E68178A14DF8727009B5F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E68174614DF8727009B5F9E /* Project object */;
+}
